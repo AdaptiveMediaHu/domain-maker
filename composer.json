@@ -1,6 +1,6 @@
 {
     "name": "repositoriomaster/domain-maker",
-    "description": "Domain Driven Design for Laravel made easy",
+    "description": "Domain Driven Design for Laravel",
     "type": "package",
     "license": "MIT",
     "keywords": [
@@ -9,7 +9,7 @@
     "authors": [
         {
             "name": "Richard Rohrig",
-            "email": "rick@wambo.com"
+            "email": "name@name.com"
         }
     ],
     "require": {

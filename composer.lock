@@ -22,7 +22,7 @@
             },
             "require": {
                 "ext-json": "*",
-                "php": "^7.1 || ^8.0"
+                "php": "^8.2"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
@@ -501,7 +501,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.83.0",
+            "version": "v10.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
@@ -7103,10 +7103,10 @@
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/contracts": "^7.20|^8.19|^9.0",
-                "illuminate/database": "^7.20|^8.19|^9.0",
-                "illuminate/queue": "^7.20|^8.19|^9.0",
-                "illuminate/support": "^7.20|^8.19|^9.0",
+                "illuminate/contracts": "^7.20|^8.19|^9.0|^10.0",
+                "illuminate/database": "^7.20|^8.19|^9.0|^10.0",
+                "illuminate/queue": "^7.20|^8.19|^9.0|^10.0",
+                "illuminate/support": "^7.20|^8.19|^9.0|^10.0",
                 "php": "^7.3|^8.0",
                 "spatie/backtrace": "^1.0",
                 "spatie/ray": "^1.33",
@@ -7115,7 +7115,7 @@
             },
             "require-dev": {
                 "guzzlehttp/guzzle": "^7.3",
-                "laravel/framework": "^7.20|^8.19|^9.0",
+                "laravel/framework": "^7.20|^8.19|^9.0|^10.0",
                 "orchestra/testbench-core": "^5.0|^6.0|^7.0",
                 "phpstan/phpstan": "^0.12.93",
                 "phpunit/phpunit": "^9.3",
@@ -7243,7 +7243,7 @@
                 "symfony/var-dumper": "^4.2|^5.1|^6.0"
             },
             "require-dev": {
-                "illuminate/support": "6.x|^8.18|^9.0",
+                "illuminate/support": "6.x|^8.18|^9.0|^10.0",
                 "nesbot/carbon": "^2.43",
                 "phpstan/phpstan": "^0.12.92",
                 "phpunit/phpunit": "^9.5",
