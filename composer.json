@@ -15,6 +15,8 @@
     "require": {
         "illuminate/support": "^7.0|^8.0|^9.0|^10.0"
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "RepositorioMaster\\DomainMaker\\": "./src"
@@ -40,4 +42,5 @@
     "require-dev": {
         "orchestra/testbench": "^6.0"
     }
+    
 }
