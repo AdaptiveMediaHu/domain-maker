@@ -1,5 +1,5 @@
 {
-    "name": "phpsquad/domain-maker",
+    "name": "repositoriomaster/domain-maker",
     "description": "Domain Driven Design for Laravel made easy",
     "type": "package",
     "license": "MIT",
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpSquad\\DomainMaker\\": "./src"
+            "RepositorioMaster\\DomainMaker\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PhpSquad\\DomainMaker\\Tests\\": "tests"
+            "RepositorioMaster\\DomainMaker\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -31,9 +31,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PhpSquad\\DomainMaker\\DomainMakerServiceProvider",
-                "PhpSquad\\DomainMaker\\DomainRouteServiceProvider",
-                "PhpSquad\\DomainMaker\\ViewProvider"
+                "RepositorioMaster\\DomainMaker\\DomainMakerServiceProvider",
+                "RepositorioMaster\\DomainMaker\\DomainRouteServiceProvider",
+                "RepositorioMaster\\DomainMaker\\ViewProvider"
             ]
         }
     },

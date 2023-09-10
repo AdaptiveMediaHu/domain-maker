@@ -4,7 +4,7 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="phpSquad/domain-maker Test Suite">
+        <testsuite name="RepositorioMaster/domain-maker Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

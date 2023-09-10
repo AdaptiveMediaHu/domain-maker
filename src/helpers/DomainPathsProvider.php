@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSquad\DomainMaker\helpers;
+namespace RepositorioMaster\DomainMaker\helpers;
 
 class DomainPathsProvider
 {

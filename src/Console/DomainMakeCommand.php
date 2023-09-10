@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSquad\DomainMaker\Console;
+namespace RepositorioMaster\DomainMaker\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSquad\DomainMaker;
+namespace RepositorioMaster\DomainMaker;
 
 use App\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Log;

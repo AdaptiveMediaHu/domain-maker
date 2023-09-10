@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSquad\DomainMaker\Console;
+namespace RepositorioMaster\DomainMaker\Console;
 
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Contracts\Events\Dispatcher;

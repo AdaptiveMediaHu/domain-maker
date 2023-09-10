@@ -1,20 +1,20 @@
 <?php
 
-namespace PhpSquad\DomainMaker;
+namespace RepositorioMaster\DomainMaker;
 
 use Illuminate\Support\ServiceProvider;
-use PhpSquad\DomainMaker\Console\DomainControllerMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainEnumMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainExceptionMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainFactoryMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainJobMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainModelMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainRepositoryMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainRequestMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainResourceMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainRouteMakeCommand;
-use PhpSquad\DomainMaker\Console\DomainServiceMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainControllerMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainEnumMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainExceptionMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainFactoryMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainJobMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainModelMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainRepositoryMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainRequestMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainResourceMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainRouteMakeCommand;
+use RepositorioMaster\DomainMaker\Console\DomainServiceMakeCommand;
 
 class DomainMakerServiceProvider extends ServiceProvider
 {

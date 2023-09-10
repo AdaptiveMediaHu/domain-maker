@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSquad\DomainMaker;
+namespace RepositorioMaster\DomainMaker;
 
 use Illuminate\View\FileViewFinder;
 use Illuminate\View\ViewServiceProvider as ServiceProvider;

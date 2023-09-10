@@ -45,7 +45,7 @@ laravel normally provides but tailored to a Domain Oriented Structure.
 ## Install
 
 ```bash
-composer require phpsquad/domain-maker
+composer require repositoriomaster/domain-maker
 ```
 
 ## Usage
@@ -143,8 +143,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Richard Rohrig](https://github.com/phpsquad)
-- [All Contributors](https://github.com/phpsquad/domain-maker/contributors)
+- [Richard Rohrig](https://github.com/repositoriomaster)
+- [All Contributors](https://github.com/repositoriomaster/domain-maker/contributors)
 
 ## Security
 

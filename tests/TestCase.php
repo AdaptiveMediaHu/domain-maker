@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSquad\DomainMaker\Tests;
+namespace RepositorioMaster\DomainMaker\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -16,7 +16,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \PhpSquad\DomainMaker\DomainMakerServiceProvider::class,
+            \RepositorioMaster\DomainMaker\DomainMakerServiceProvider::class,
         ];
     }
 
