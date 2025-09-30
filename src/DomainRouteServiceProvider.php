@@ -39,6 +39,8 @@ class DomainRouteServiceProvider extends ServiceProvider
             $domainRouteFiles = array_diff(scandir(base_path('app/Domains/' . $domain . '/routes')), array('.', '..'));
             foreach ($domainRouteFiles as $file) {
                 Route::namespace($this->namespace)
+                    ->prefix('api')
+                    ->middleware('api')
                     ->group(base_path('app/Domains/' . $domain . '/routes/' . $file));
             }
         }
